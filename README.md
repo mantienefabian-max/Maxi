@@ -26,7 +26,7 @@ const ctx = canvas.getContext("2d");
 
 let box = 20;
 let snake = [{x: 200, y: 200}];
-let direction = "RIGHT";
+let direction = "RIGHT"
 let food = {
   x: Math.floor(Math.random()*20)*box,
   y: Math.floor(Math.random()*20)*box
