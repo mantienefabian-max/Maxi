@@ -74,7 +74,7 @@ function draw() {
 
   if(
     snakeX < 0 || snakeX >= 400 ||
-    snakeY < 0 || snakeY >= 400 ||
+    snkeY < 0 || snakeY >= 400 ||
     collision(newHead, snake)
   ) {
     clearInterval(game);
