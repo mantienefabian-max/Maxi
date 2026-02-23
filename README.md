@@ -77,7 +77,7 @@ function draw() {
     snkeY < 0 || snakeY >= 400 ||
     collision(newHead, snake)
   ) {
-    clearInterval(game);
+    clearInterval(game)
     alert("Game Over");
   }
 
